@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Assist2Sell - Buy A Home</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+  </head>
+  
+  <body>
+    <div id="header"></div>
+    
+    <main>
+      
+      <section class="buy-hero">
+        <div class="buy-heroBG">
+          <img src="https://i.ibb.co/gdf71jM/Show-Image-1.jpg" alt="Happy Buyers" border="0" id="buy-heroIMG1">
+        </div>
+        <div class="buy-heroInfo">
+          <div class="buy-heroInfo-text">
+            <h1 class="buy-heroh1">No Hassle Home Search</h1>
+          </div>
+        </div>
+      </section>
+      
+      <section class="buy-form">
+        <form name="getStarted-buyHome" class="getStarted-buyHome">
+          <div class="getStarted-buyHome-formContainer">
+            <div class="getStarted-buyHome-formWrapper">
+              <h2 id="getStarted-buyHome-h2">Get Started</h2>
+              <div class="getStarted-buyHome-form">
+                <div class="getStarted-buyHome-left">
+                  <div class="getStarted-buyHome-name getStarted-buyHome-input">
+                    <label for="getStarted-buyHome-name">Name</label>
+                    <input id="getStarted-buyHome-name" name="getStarted-buyHome-name" type="text">
+                  </div>
+                  <div class="getStarted-buyHome-phone getStarted-buyHome-input">
+                    <label for="getStarted-buyHome-phone">Phone</label>
+                    <input id="getStarted-buyHome-phone" name="getStarted-buyHome-name" type="tel">
+                  </div>
+                  <div class="getStarted-buyHome-email getStarted-buyHome-input">
+                    <label for="getStarted-buyHome-email">Email</label>
+                    <input id="getStarted-buyHome-email" name="getStarted-buyHome-name" type="email">
+                  </div>
+                </div>
+                <div class="getStarted-buyHome-right">
+                  <div class="getStarted-buyHome-helpBox getStarted-buyHome-input">
+                    <label for="getStarted-buyHome-helpBox">What can we help you with?</label>
+                    <textarea id="getStarted-buyHome-helpBox" name="getStarted-buyHome-helpBox" rows="4" cols="20"></textarea>
+                  </div>
+                  <button type="submit" id="getStarted-buyHome-btnSubmit" class="getStarted-buyHome-btnSubmit getStarted-buyHome-input">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+      
+      <section class="buy-steps">
+        <div class="buy-line1"></div>
+
+        <div class="buy-steps-row1">
+          <div class="buy-img-row1">
+            <img src="https://i.ibb.co/wcX31bv/Find.png" id="findImg" >
+          </div>
+
+          <div class="buy-circle1">
+            <div class="buy-circle1-inner">
+              <h5>1</h5>
+            </div>
+          </div>
+
+          <div class="buy-stepText1">
+            <h3>Find</h3>
+            <p>Our agents will search the MLS to find you a home that fits your desires.</p>
+            <ul class="bulletList">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="buy-line2"></div>
+
+        <div class="buy-steps-row2">
+          <div class="buy-stepText2">
+            <h3>Offer</h3>
+            <p>View homes with your agent and make an offer on the home you want.</p>
+            <ul class="bulletList">
+              <li>Get qualified for a loan</li>
+              <li>Your Assist2Sell expert will provide pricing and neighborhood data</li>
+              <li>Assist you in deciding what to offer</li>
+              <li>Negotiate on your behalf</li>
+              <li>Work with other agents, inspectors, appraiser, and others to ensure a smooth hassle free closing</li>
+            </ul>
+          </div>
+
+          <div class="buy-circle2">
+            <div class="buy-circle2-inner">
+              <h5>2</h5>
+            </div>
+          </div>
+
+          <div class="buy-img-row2">
+            <img src="https://i.ibb.co/Pr0B26y/Offer.png" id="offerImg">
+          </div>
+        </div>
+
+        <div class="buy-line3"></div>
+
+        <div class="buy-steps-row3">
+          <div class="buy-img-row3">
+            <img src="https://i.ibb.co/QmzFQ97/Close.png" id="closeImg">
+          </div>
+
+          <div class="buy-circle3">
+            <div class="buy-circle3-inner">
+              <h5>3</h5>
+            </div>
+          </div>
+
+          <div class="buy-stepText3">
+            <h3>Close</h3>
+            <p>Sign closing papers, get the keys, and get moving!</p>
+            <ul class="bulletList">
+              <li>Final walk through inspection</li>
+              <li>Review and sign closing documents</li>
+              <li>Get the keys to your new home!</li>
+              <li>Move into your new home</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="buy-line4"></div>
+      </section>
+      
+    </main>
+    
+    <div id="footer"></div>
+  </body>
+</html>

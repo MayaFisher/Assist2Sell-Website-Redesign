@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <title>Assist2Sell - Leading Discount Real Estate</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+        $("#homeWorth").load("homeWorth.html");
+        $("#officeSearch").load("officeSearch.html");
+      });
+    </script>
+    
+  </head>
+  
+  <body>
+
+    <div id="header"></div>
+    
+    <main>
+      
+      <section class="hero">
+        <div class="hero-BGimg">
+          <img src="https://i.ibb.co/GFr9rpG/0-O4-A0349e2-1.png" id="hero-img1" />
+          <div class="hero-BGimg-abs">
+            <img src="https://i.ibb.co/tcjFmy0/Asset-1.png" id="hero-img2" />
+            <img src="https://i.ibb.co/gyjBP9f/soldsignwithshadow.png" id="hero-img3" />
+          </div>
+        </div>
+        <div class="hero-info">
+          <h1 id="hero-h1">Your home sold by an expert agent for a low fee. It's that simple</h1>
+          <form name="find-an-agentOffice" class="zip-search-form">
+            <div class="zip-search-formContainer">
+              <div class="zip-search-formFieldWrapper">
+                <div role="button" tabindex="0" aria-label="Enter your zipcode" class="zip-search-zipfield zip-search-zipfield-invalid zip-search-zipfield-valid zip-search-zipfield-noBorder">
+                  <input type="text" inputmode="numeric" id="home-hero-zipcode" aria-label="Enter zipcode" placeholder="Enter Zipcode" value />
+                  <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18.364 17.3639L12 23.7279L5.636 17.3639C4.37734 16.1052 3.52019 14.5016 3.17293 12.7558C2.82567 11.0099 3.00391 9.20035 3.6851 7.55582C4.36629 5.91129 5.51984 4.50569 6.99988 3.51677C8.47992 2.52784 10.22 2 12 2C13.78 2 15.5201 2.52784 17.0001 3.51677C18.4802 4.50569 19.6337 5.91129 20.3149 7.55582C20.9961 9.20035 21.1743 11.0099 20.8271 12.7558C20.4798 14.5016 19.6227 16.1052 18.364 17.3639ZM12 12.9999C12.5304 12.9999 13.0391 12.7892 13.4142 12.4141C13.7893 12.0391 14 11.5304 14 10.9999C14 10.4695 13.7893 9.96078 13.4142 9.58571C13.0391 9.21064 12.5304 8.99992 12 8.99992C11.4696 8.99992 10.9609 9.21064 10.5858 9.58571C10.2107 9.96078 10 10.4695 10 10.9999C10 11.5304 10.2107 12.0391 10.5858 12.4141C10.9609 12.7892 11.4696 12.9999 12 12.9999Z" fill="#d62d33"></path></svg>
+                </div>
+                <button type="submit" id="zipcode-search-btn-submit" class="zip-search-zipSubmit-btn zip-search-zipSubmit-btn-setHeight">Get Started</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      
+      <section class="reviewCards">
+        
+      </section>
+      
+      <div id="officeSearch"></div>
+      
+      <section class="steps">
+        <div class="line1"></div>
+
+        <div class="steps-row1">
+          <div class="img-row1">
+            <img src="https://i.ibb.co/LZyn9t4/Asset-1.png" id="listImg"/>
+          </div>
+
+          <div class="circle1">
+            <div class="circle1-inner">
+              <h5>1</h5>
+            </div>
+          </div>
+
+          <div class="stepText1">
+            <h3>List</h3>
+            <p>An Assist2Sell expert will meet with you and answer any questions you may have, provide pricing and neighborhood market stats, collect all information needed to list you home for sale.</p>
+          </div>
+        </div>
+
+        <div class="line2"></div>
+
+        <div class="steps-row2">
+          <div class="stepText2">
+            <h3>Promote</h3>
+            <p>Once your home is listed, we aggressively promote your home to make sure it is exposed to as many homebuyers as possible. More exposure means your home sells quicker for top dollar.</p>
+          </div>
+
+          <div class="circle2">
+            <div class="circle2-inner">
+              <h5>2</h5>
+            </div>
+          </div>
+
+          <div class="img-row2">
+            <img src="https://i.ibb.co/tMWnsKy/Asset-3.png" id="promoteImg"/>
+          </div>
+        </div>
+
+        <div class="line3"></div>
+
+        <div class="steps-row3">
+          <div class="img-row3">
+            <img src="https://i.ibb.co/hmndnh8/Asset-2.png" id="sellImg"/>
+          </div>
+
+          <div class="circle3">
+            <div class="circle3-inner">
+              <h5>3</h5>
+            </div>
+          </div>
+
+          <div class="stepText3">
+            <h3>Sell</h3>
+            <p>We will negotiate the offer on your behalf. We will handle all the paperwork, arrange inspections and appraisal, and provide expert advice and support all the way until you receive your check. Now that's a #smartmove.</p>
+          </div>
+        </div>
+
+        <div class="line4"></div>
+      </section>
+      
+      <div id="homeWorth"></div>
+      
+      <section class="tools-resources">
+        <h3 class="tr-h3">
+          Tools &amp; Resources
+        </h3>
+        <div class="columns">
+          
+          <div class="col-1">
+            <div class="hw-picBtn">
+              <a href="/home_worth">
+                <img src="https://i.ibb.co/qMcLRJg/Adobe-Stock-241369910-smaller.jpg" />
+                <h5 class="tr-h5">
+                  Find out how much your home is worth
+                </h5>
+                <p class="tr-p">
+                  Get a free value estimate &raquo;
+                </p>
+              </a>
+            </div>
+            <div class="hma-picBtn">
+              <a href="/mortgage_calculator">
+                <img src="https://i.ibb.co/X21x0Hs/pexels-andrea-piacquadio-3760067.jpg"/>
+                <h5 class="tr-h5">
+                  Find out how much you can afford
+                </h5>
+                <p class="tr-p">
+                  Use our free Mortgage Calculator &raquo;
+                </p>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-2">
+            <div class="hms-picBtn">
+              <a href="/commissions_calculator">
+                <img src="https://i.ibb.co/FYBtc0V/tierra-mallorca-rg-J1-J8-SDEAY-unsplash.jpg" />
+                <h5 class="tr-h5">
+                  Find out how much you can save
+                </h5>
+                <p class="tr-p">
+                  Use our free Commissions Calculator &raquo;
+                </p>
+              </a>
+            </div>
+            <div class="lm-picBtn">
+              <a href="/learn_more_about">
+                <img src="https://i.ibb.co/C60VKNs/chuttersnap-aw-L-YCt-PGv4-unsplash.jpg"/>
+                <h5 class="tr-h5">
+                  Learn more about Assist2Sell
+                </h5>
+                <p class="tr-p">
+                  Learn More &raquo;
+                </p>
+              </a>
+            </div>
+          </div>
+          
+          <div class="col-3">
+            <div class="lines"></div>
+            
+          </div>
+          
+        </div>
+      </section>
+      
+    </main>
+    
+    <div id="footer"></div>
+    
+  </body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Assist2Sell - Sell My Home</title>
+
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+      });
+    </script>
+    
+    <style>
+      .steps{
+        padding-top: 120px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="header"></div>
+
+    <main>
+      
+      <section class="sell-hero">
+        <div class="sell-heroBG">
+          <img
+            src="https://i.ibb.co/d5y1gyV/avi-waxman-f9q-Zu-Ko-ZYo-Y-unsplash.jpg"
+            alt="Overhead View of Neighborhood"
+            id="sell-heroIMG1"
+          />
+        </div>
+        <div class="sell-heroInfo">
+          
+          <div class="sell-heroInfo-text">
+            <h1 class="sell-heroh1">
+              Sell Your Home for a Low Fee &amp; Save Thousands
+            </h1>
+            <ul class="sell-heroul">
+              <div class="sell-heroul-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewbox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z"
+                    fill="#003976"
+                  />
+                </svg>
+                <li class="sell-heroli">Expert Agents</li>
+              </div>
+              <div class="sell-heroul-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewbox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z"
+                    fill="#003976"
+                  />
+                </svg>
+                <li class="sell-heroli">Exceptional Service</li>
+              </div>
+              <div class="sell-heroul-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="26"
+                  height="26"
+                  viewbox="0 0 24 24"
+                >
+                  <path
+                    d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1.999 14.413-3.713-3.705L7.7 11.292l2.299 2.295 5.294-5.294 1.414 1.414-6.706 6.706z"
+                    fill="#003976"
+                  />
+                </svg>
+                <li class="sell-heroli">Great Results</li>
+              </div>
+            </ul>
+          </div>
+          
+          <form name="getStarted-sellHme" class="getStarted-sellHome">
+            <div class="getStarted-sellHome-formContainer">
+              <div class="getStarted-sellHome-formWrapper">
+                
+                <h2 class="getStarted-sellHome-h2">
+                  GetStarted
+                </h2>
+                
+                <div class="getStarted-sellHome-form">
+                  <div class="getStarted-sellHome-name getStarted-sellHome-input">
+                    <label for="getStarted-sellHome-name ">Name</label>
+                    <input id="getStarted-sellHome-name" name="getStarted-sellHome-name" type="text">
+                  </div>
+                  <div class="getStarted-sellHome-phone getStarted-sellHome-input">
+                    <label for="getStarted-sellHome-phone">Phone</label>
+                    <input id="getStarted-sellHome-phone" name="getStarted-sellHome-phone" type="tel">
+                  </div>
+                  <div class="getStarted-sellHome-email getStarted-sellHome-input">
+                    <label for="getStarted-sellHome-email">Email</label>
+                    <input id="getStarted-sellHome-email" name="getStarted-sellHome-email" type="email">
+                  </div>
+                  <div class="getStarted-sellHome-address getStarted-sellHome-input">
+                    <label for="getStarted-sellHome-address">Street Address</label>
+                    <input id="getStarted-sellHome-address" name="getStarted-sellHome-address" type="text">
+                  </div>
+                  <div class="getStarted-sellHome-csz">
+                    <div class="getStarted-sellHome-input">
+                      <label class="getStarted-sellHome-city" for="getStarted-sellHome-city">City</label>
+                      <input id="getStarted-sellHome-city" class="getStarted-sellHome-inputCSZ" name="getStarted-sellHome-city" type="text">
+                    </div>
+                    <div class="getStarted-sellHome-input">
+                      <label for="getStarted-sellHome-state">State</label>
+                      <select id="getStarted-sellHome-state" class="getStarted-sellHome-inputCSZ getStarted-sellHome-select">
+                        <option value="00">Select</option>
+                        <option value="CANADA">* CANADA *</option>
+                        <option value="AL">AL</option>
+                        <option value="AK">AK</option>
+                        <option value="AZ">AZ</option>
+                        <option value="AR">AR</option>
+                        <option value="CA">CA</option>
+                        <option value="CO">CO</option>
+                        <option value="CT">CT</option>
+                        <option value="DC">DC</option>
+                        <option value="DE">DE</option>
+                        <option value="FL">FL</option>
+                        <option value="GA">GA</option>
+                        <option value="HI">HI</option>
+                        <option value="ID">ID</option>
+                        <option value="IL">IL</option>
+                        <option value="IN">IN</option>
+                        <option value="IA">IA</option>
+                        <option value="KS">KS</option>
+                        <option value="KY">KY</option>
+                        <option value="LA">LA</option>
+                        <option value="ME">ME</option>
+                        <option value="MD">MD</option>
+                        <option value="MA">MA</option>
+                        <option value="MI">MI</option>
+                        <option value="MN">MN</option>
+                        <option value="MS">MS</option>
+                        <option value="MO">MO</option>
+                        <option value="MT">MT</option>
+                        <option value="NE">NE</option>
+                        <option value="NV">NV</option>
+                        <option value="NH">NH</option>
+                        <option value="NJ">NJ</option>
+                        <option value="NM">NM</option>
+                        <option value="NY">NY</option>
+                        <option value="NC">NC</option>
+                        <option value="ND">ND</option>
+                        <option value="OH">OH</option>
+                        <option value="OK">OK</option>
+                        <option value="OR">OR</option>
+                        <option value="PA">PA</option>
+                        <option value="RI">RI</option>
+                        <option value="SC">SC</option>
+                        <option value="SD">SD</option>
+                        <option value="TN">TN</option>
+                        <option value="TX">TX</option>
+                        <option value="UT">UT</option>
+                        <option value="VT">VT</option>
+                        <option value="VA">VA</option>
+                        <option value="WA">WA</option>
+                        <option value="WV">WV</option>
+                        <option value="WI">WI</option>
+                        <option value="WY">WY</option>
+                      </select>
+                    </div>
+                    <div class="getStarted-sellHome-input">
+                      <label class="getStarted-sellHome-zip" for="getStarted-sellHome-zip">Zip</label>
+                      <input id="getStarted-sellHome-zip" class="getStarted-sellHome-inputCSZ" name="getStarted-sellHome-zip" type="number">
+                    </div>
+                  </div>
+                  <button type="submit" id="getStarted-sellHome-btnSubmit" class="getStarted-sellHome-input getStarted-sellHome-btnSubmit">Contact Us</button>
+                </div>
+                
+              </div>
+            </div>
+          </form>
+          
+        </div>
+      </section>
+      
+      <section class="steps">
+        <div class="line1"></div>
+
+        <div class="steps-row1">
+          <div class="img-row1">
+            <img src="https://i.ibb.co/LZyn9t4/Asset-1.png" id="listImg"/>
+          </div>
+
+          <div class="circle1">
+            <div class="circle1-inner">
+              <h5>1</h5>
+            </div>
+          </div>
+
+          <div class="stepText1">
+            <h3>List</h3>
+            <p>An Assist2Sell expert will meet with you and answer any questions you may have, provide pricing and neighborhood market stats, collect all information needed to list you home for sale.</p>
+            <ul class="bulletList">
+              <li>Provide custom detailed home pricing information</li>
+              <li>Advice about preparing your home for sale</li>
+              <li>Collect all info, and documents needed for the sale</li>
+              <li>Sign listing agreement</li>
+              <li>Install yard sign and take photos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="line2"></div>
+
+        <div class="steps-row2">
+          <div class="stepText2">
+            <h3>Promote</h3>
+            <p>Once your home is listed, we aggressively promote your home to make sure it is exposed to as many homebuyers as possible. More exposure means your home sells quicker for top dollar.</p>
+            <ul class="bulletList">
+              <li>We show your home to potential buyers</li>
+              <li>Arrange for other agents to show your home</li>
+              <li>Take all phone calls and inquiries</li>
+              <li>Internet marketing on hundreds of top real estate websites</li>
+              <li>Social media marketing</li>
+            </ul>
+          </div>
+
+          <div class="circle2">
+            <div class="circle2-inner">
+              <h5>2</h5>
+            </div>
+          </div>
+
+          <div class="img-row2">
+            <img src="https://i.ibb.co/tMWnsKy/Asset-3.png" id="promoteImg"/>
+          </div>
+        </div>
+
+        <div class="line3"></div>
+
+        <div class="steps-row3">
+          <div class="img-row3">
+            <img src="https://i.ibb.co/hmndnh8/Asset-2.png" id="sellImg"/>
+          </div>
+
+          <div class="circle3">
+            <div class="circle3-inner">
+              <h5>3</h5>
+            </div>
+          </div>
+
+          <div class="stepText3">
+            <h3>Sell</h3>
+            <p>We will negotiate the offer on your behalf. We will handle all the paperwork, arrange inspections and appraisal, and provide expert advice and support all the way until you receive your check. Now that's a #smartmove.</p>
+            <ul class="bulletList">
+              <li>Negotiate offers on your behalf</li>
+              <li>Handle all paperwork and escrow process</li>
+              <li>Arrange inspections and appraisal</li>
+              <li>Coordinate with all parties to ensure a successful close</li>
+              <li>Receive your money</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="line4"></div>
+      </section>
+      
+    </main>
+
+    <div id="footer"></div>
+  </body>
+</html>
